@@ -130,6 +130,7 @@ For more information on how to use TensorBoard with PyTorch, check out [the docu
 ### Google Colab
 
 You can run this notebook in Colab using the following link: https://colab.research.google.com/github/vita-epfl/introML-2021/blob/main/project/train.ipynb
+(remplacer par notre doc)
 
 **Important info:** 
 - To train models much quicker, switch to a GPU runtime (*Runtime -> Change runtime type -> GPU*)
