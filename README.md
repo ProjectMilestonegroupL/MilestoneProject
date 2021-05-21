@@ -44,7 +44,10 @@ This project is based on two milestones:
 - imports
 - data recuperation
 - data reshape
-- model (CNN + loss and optimizer + csv submission)
+- model : 
+- CNN
+- loss and optimizer
+- csv submission
 - model run
 
 ### progression and improvements
