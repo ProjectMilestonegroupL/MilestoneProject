@@ -75,7 +75,7 @@ Then, we decided to try using Keras and we saw that it's easier and quicker to m
  # Milestone 2 : Tsunami induced building collapse detection
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vita-epfl/introML-2021/blob/main/project/train.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vita-epfl/introML-2021/blob/main/project/train.ipynb) (remplacer par notre doc)
 
 ## Dependencies
 All required packages can be found in `requirements.txt`.
@@ -93,7 +93,7 @@ We also provide two CSV files:
 
 ### Code
 
-The notebook `train.ipynb` contains a complete training procedure. 
+The notebook `train.ipynb` contains a complete training procedure. (remplacer par notre doc)
 
 In addition, here is a brief description of what each of the provided Python files does:
 - `dataset.py`: Contains `PatchPairsDataset`, a PyTorch Dataset class that loads pairs of images and their target, as well as a function to split datasets into training and validation sets.
