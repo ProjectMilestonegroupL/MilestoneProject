@@ -2,7 +2,7 @@
 Project introML
 
 # Table of content
-1. [Description]
+1. [Description](#description)
 2.
 3.
 4.
@@ -12,7 +12,7 @@ Project introML
 8.
 
 
-## [Description]
+## Description
 This project is based on two milestones:
 1. Seismic collapse capacity prediction
 2. Tsunami induced building collapse detection
