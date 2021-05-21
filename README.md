@@ -5,11 +5,10 @@ Project introML
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Content](#content)
-3.1 [Milestone 1 : Seismic collapse capacity prediction](# Milestone 1 : Seismic collapse capacity prediction)
-5. [Usage](#usage)
-6. [Contributing](#content)
-7. [Authors](#authors)
-8. [License](#license)
+4. [Usage](#usage)
+5. [Contributing](#content)
+6. [Authors](#authors)
+7. [License](#license)
 
 
 
