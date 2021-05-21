@@ -3,13 +3,12 @@ Project introML
 
 # Table of content
 1. [Description](#description)
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#content)
+5. [Authors](#authors)
+6. [License](#license)
+
 
 
 ## Description
@@ -25,7 +24,7 @@ This project is based on two milestones:
 
 ## Usage
 
----
+The next section is usage, in which you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
 
 ## Content
 
@@ -107,7 +106,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
----
+--- 
 
 ## Authors
 Lucie Fresard, Edouard Heinkel and Jordan Dessibourg
