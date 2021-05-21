@@ -1,18 +1,20 @@
 # MilestoneProject
 Project introML
 
-# Description
+## Description
 This project is based on two milestones:
 1. Seismic collapse capacity prediction
 2. Tsunami induced building collapse detection
 
 ## Installation
 
-a
-
-
 ## Usage
 
+# Milestone 1 : Seismic collapse capacity prediction
+
+### Code architecture 
+
+# Milestone 2 : Tsunami induced building collapse detection
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
