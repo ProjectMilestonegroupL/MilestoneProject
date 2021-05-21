@@ -12,9 +12,16 @@ This project is based on two milestones:
 
 # Milestone 1 : Seismic collapse capacity prediction
 
-### Code architecture 
+### files 
+- train_set
+- val_set
+- test_set
+- milestone1.ipynb
+- milestone1alternative.ipynb
 
-#### architecture 1 (milestone1)
+### code architecture 
+
+#### architecture 1 with Pytorch (milestone1)
 - imports
 - data recuperation
 - data reshape and transformation
@@ -24,15 +31,26 @@ This project is based on two milestones:
 - model test
 - csv submission
 
-#### architecture 2 (alternative milestone1)
-
-
-
+#### architecture 2 with Keras (alternative milestone1)
+- imports
+- data recuperation
+- data reshape
+- model (CNN + loss and optimizer + csv submission)
+- model run
 
 # Milestone 2 : Tsunami induced building collapse detection
 
-### Code architecture 
-###
+### files 
+- milestone2train.ipynb
+- ..
+
+### code architecture 
+- setup
+- imports
+- device 
+- data
+- model 
+- 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
