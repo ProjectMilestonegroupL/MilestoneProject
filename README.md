@@ -40,8 +40,6 @@ This project is based on two milestones:
 - model test
 - csv submission
 
---
-
 #### - architecture 2 with Keras (alternative milestone1)
 - imports
 - data recuperation
@@ -62,6 +60,14 @@ This project is based on two milestones:
 - data
 - model 
 - 
+
+### progression and improvements
+At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one.
+We tried many optimizers and activation functions. 
+
+Best configuration with Adam as optimizer and Sigmoid as activation functions.
+
+
 
 --- 
 
