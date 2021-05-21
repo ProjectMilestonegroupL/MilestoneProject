@@ -93,7 +93,23 @@ We also provide two CSV files:
 
 ### Code
 
-The notebook `train.ipynb` contains a complete training procedure. (remplacer par notre doc)
+The notebook `train.ipynb` contains a complete training procedure.(remplacer par notre doc)
+
+Here is the architecture of `train.ipynb` (remplacer par notre doc)
+
+ - for Google Colab
+ - setup
+ - imports
+ - device 
+ - data
+ - model 
+   - network architecture
+   - loss, optimizer & scheduler
+ - save, checkpoint and log
+   - TensorBoard within notebook
+ - model training
+ - model evaluation
+ - .csv submission file generation
 
 In addition, here is a brief description of what each of the provided Python files does:
 - `dataset.py`: Contains `PatchPairsDataset`, a PyTorch Dataset class that loads pairs of images and their target, as well as a function to split datasets into training and validation sets.
@@ -109,26 +125,11 @@ If you are using Google Colab, keep in mind that any changes to files besides `t
 By default, all runs are logged using [TensorBoard](https://www.tensorflow.org/tensorboard), which keeps track of the loss and accuracy. 
 After installing TensorBoard, type
 
-### train code architecture 
- - for Google Colab
- - setup
- - imports
- - device 
- - data
- - model 
-   - network architecture
-   - loss, optimizer & scheduler
- - save, checkpoint and log
-   - TensorBoard within notebook
- - model training
- - model evaluation
- - .csv submission file generation
+### progression and improvements
+At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one.
+We tried many optimizers and activation functions. 
 
- ### progression and improvements
- At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one.
- We tried many optimizers and activation functions. 
-
- Best configuration with Adam as optimizer and Sigmoid as activation functions.
+Best configuration with Adam as optimizer and Sigmoid as activation functions.
 
 --- 
  
