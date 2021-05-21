@@ -14,7 +14,25 @@ This project is based on two milestones:
 
 ### Code architecture 
 
+#### architecture 1 (milestone1)
+- imports
+- data recuperation
+- data reshape and transformation
+- neutral net
+- loss and optimizer
+- model train
+- model test
+- csv submission
+
+#### architecture 2 (alternative milestone1)
+
+
+
+
 # Milestone 2 : Tsunami induced building collapse detection
+
+### Code architecture 
+###
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
