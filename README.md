@@ -51,7 +51,7 @@
    - .csv submission file generation
  - model training & evaluation
  
-## progression and improvements
+## Progression & improvements
 
 ### parameters to improve our regression
  - NN architecture (numbers of hidden layers and neurons)
@@ -67,9 +67,7 @@
 
  Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
 
-
 # Milestone 2 : Tsunami induced building collapse detection
-
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vita-epfl/introML-2021/blob/main/project/train.ipynb) (remplacer par notre doc)
 
