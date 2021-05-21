@@ -18,7 +18,7 @@ This project is based on two milestones:
 - test_set
 - milestone1.ipynb
 - milestone1alternative.ipynb
-
+---
 ### code architecture 
 
 #### - architecture 1 with Pytorch (milestone1)
