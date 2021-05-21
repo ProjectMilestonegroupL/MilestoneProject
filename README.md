@@ -45,9 +45,9 @@ The next section is usage, in which you instruct other people on how to use your
 - data reshape and transformation
 - neutral net
 - loss and optimizer
-- model train
-- model test
-- csv submission
+- model training
+- model evaluation
+- .csv submission file generation
 
 #### - architecture 2 with Keras (alternative milestone1)
 - imports
@@ -55,9 +55,9 @@ The next section is usage, in which you instruct other people on how to use your
 - data reshape
 - model  
   - convolutional neutral net
-  - loss and optimizer
-  - csv submission
-- model run
+  - loss & optimizer
+  - .csv submission file generation
+- model training & evaluation
 
 ### progression and improvements
 
@@ -84,12 +84,19 @@ Then, we decided to try using Keras and we saw that it's easier and quicker to m
 - ..
 
 ### code architecture 
+- for Google Colab
 - setup
 - imports
 - device 
 - data
 - model 
-- 
+  - network architecture
+  - loss, optimizer & scheduler
+- save, checkpoint and log
+  - TensorBoard within notebook
+- model training
+- model evaluation
+- .csv submission file generation
 
 ### progression and improvements
 At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one.
