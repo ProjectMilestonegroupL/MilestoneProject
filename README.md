@@ -75,7 +75,7 @@ Then, we decided to try using Keras and we saw that it's easier and quicker to m
  # Milestone 2 : Tsunami induced building collapse detection
 
  ### files 
- - [![Open In Colab](https://colab.research.google.com/drive/1HOpnfSMQPeSiXxVoGzOjS02uYMrKFhsh?usp=sharing)
+ - [![Open In Colab](https://colab.research.google.com/drive/)
 
  - `dataset.py`: Contains `PatchPairsDataset`, a PyTorch Dataset class that loads pairs of images and their target, as well as a function to split datasets into training and validation sets.
  - `evaluator.py`: Evaluates and generates prediction from a trained model
