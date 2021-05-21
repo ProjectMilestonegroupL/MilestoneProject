@@ -45,7 +45,7 @@ This project is based on two milestones:
 - data recuperation
 - data reshape
 - model  
-  - CNN
+  - convolutional neutral net
   - loss and optimizer
   - csv submission
 - model run
