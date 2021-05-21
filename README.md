@@ -2,8 +2,9 @@
 Project introML
 
 # Description
-
-
+This project is based on two milestones:
+1. Seismic collapse capacity prediction
+2. Tsunami induced building collapse detection
 
 ## Installation
 
@@ -19,6 +20,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Authors
+Lucie Fresard, Edouard Heinkel and Jordan Dessibourg
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
