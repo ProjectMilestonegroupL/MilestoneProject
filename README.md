@@ -47,6 +47,16 @@ This project is based on two milestones:
 - model (CNN + loss and optimizer + csv submission)
 - model run
 
+### progression and improvements
+
+We create our regression model with our Pytorch knowledges and we reached quite early the minimum score required by implementing 3 hidden layers in our NN.
+We choose Adam as optimizer and ReLU as activation function.
+
+Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
+
+
+
+
 # Milestone 2 : Tsunami induced building collapse detection
 
 ### files 
