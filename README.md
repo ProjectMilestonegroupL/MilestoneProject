@@ -49,7 +49,15 @@ This project is based on two milestones:
 
 ### progression and improvements
 
-We create our regression model with our Pytorch knowledges and we reached quite early the minimum score required by implementing 3 hidden layers in our NN.
+#### parameters to improve our regression
+- NN architecture (numbers of hidden layers and neurons)
+- activation function
+- optimizer
+- learning rate
+
+We create our regression model with our Pytorch knowledges.
+
+We reached quite early the minimum score required by implementing 3 hidden layers in our NN.
 We choose Adam as optimizer and ReLU as activation function.
 
 Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
