@@ -4,10 +4,12 @@ Project introML
 # Table of content
 1. [Description](#description)
 2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#content)
-5. [Authors](#authors)
-6. [License](#license)
+3. [Content](#content)
+3.1 [Milestone 1 : Seismic collapse capacity prediction](# Milestone 1 : Seismic collapse capacity prediction)
+5. [Usage](#usage)
+6. [Contributing](#content)
+7. [Authors](#authors)
+8. [License](#license)
 
 
 
