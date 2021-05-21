@@ -24,16 +24,12 @@
 ## Content
 
 # Milestone 1 : Seismic collapse capacity prediction
-
-### files 
- - train_set
- - val_set
- - test_set
- - milestone1.ipynb
- - milestone1alternative.ipynb
  
-### code architecture 
+## Project structure
 
+### Data
+
+### Code
 
 #### - architecture 1 with Pytorch (milestone1)
  - imports
@@ -55,9 +51,9 @@
    - .csv submission file generation
  - model training & evaluation
  
-### progression and improvements
+## progression and improvements
 
-#### parameters to improve our regression
+### parameters to improve our regression
  - NN architecture (numbers of hidden layers and neurons)
  - activation function
  - optimizer
@@ -77,12 +73,12 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vita-epfl/introML-2021/blob/main/project/train.ipynb) (remplacer par notre doc)
 
-### Dependencies
+## Dependencies
 All required packages can be found in `requirements.txt`.
 
-### Project structure
+## Project structure
 
-#### Data
+### Data
 
 **You can find the dataset [here](https://drive.google.com/file/d/1otKxIvEP77Cap9VmUkujMrAMo4K8_F1c/view?usp=sharing).**
 
@@ -91,7 +87,7 @@ We also provide two CSV files:
 - `train.csv` which contains the path to each image in the training set, as well as the target (0 for "surviving", 1 for "washed-away").
 - `test.csv` which contains the path to each image in the test set.
 
-#### Code
+### Code
 
 The notebook `train.ipynb` contains a complete training procedure.(remplacer par notre doc)
 
@@ -120,7 +116,7 @@ In addition, here is a brief description of what each of the provided Python fil
 
 If you are using Google Colab, keep in mind that any changes to files besides `train.ipynb` will get discarded when your session terminates.
 
-#### Experiment logging
+### Experiment logging
 
 By default, all runs are logged using [TensorBoard](https://www.tensorflow.org/tensorboard), which keeps track of the loss and accuracy. 
 After installing TensorBoard, type
@@ -134,7 +130,7 @@ Alternatively, TensorBoard can be launched directly from notebooks, refer to `tr
 For more information on how to use TensorBoard with PyTorch, check out [the documentation](https://pytorch.org/docs/stable/tensorboard.html).
 
 
-#### progression and improvements
+### progression and improvements
 At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one.
 We tried many optimizers and activation functions. 
 
