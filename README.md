@@ -23,20 +23,19 @@
 
 ## Content
 
- # Milestone 1 : Seismic collapse capacity prediction
+# Milestone 1 : Seismic collapse capacity prediction
 
- ### files 
+### files 
  - train_set
  - val_set
  - test_set
  - milestone1.ipynb
  - milestone1alternative.ipynb
  
- 
- ### code architecture 
- You are free to modify all of these Python files as desired for your experiments, although this is not necessary to achieve a very good performance in this challenge. If you are using Google Colab, keep in mind that any changes to files besides `train.ipynb` will get discarded when your session terminates.
+### code architecture 
 
- #### - architecture 1 with Pytorch (milestone1)
+
+#### - architecture 1 with Pytorch (milestone1)
  - imports
  - data recuperation
  - data reshape and transformation
@@ -46,7 +45,7 @@
  - model evaluation
  - .csv submission file generation
 
- #### - architecture 2 with Keras (alternative milestone1)
+#### - architecture 2 with Keras (alternative milestone1)
  - imports
  - data recuperation
  - data reshape
@@ -56,23 +55,23 @@
    - .csv submission file generation
  - model training & evaluation
  
- ### progression and improvements
+### progression and improvements
 
- #### parameters to improve our regression
+#### parameters to improve our regression
  - NN architecture (numbers of hidden layers and neurons)
  - activation function
  - optimizer
  - learning rate
 
-We created our regression model with our Pytorch knowledges.
+ We created our regression model with our Pytorch knowledges.
 
-We reached quite early the minimum score required by implementing 3 hidden layers in our NN.
-We choose Adam as optimizer and ReLU as activation function.
+ We reached quite early the minimum score required by implementing 3 hidden layers in our NN.
+ We choose Adam as optimizer and ReLU as activation function.
 
-Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
+ Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
 
 
- # Milestone 2 : Tsunami induced building collapse detection
+# Milestone 2 : Tsunami induced building collapse detection
 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vita-epfl/introML-2021/blob/main/project/train.ipynb) (remplacer par notre doc)
