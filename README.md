@@ -15,6 +15,10 @@ This project is based on two milestones:
 
 ## Usage
 
+---
+
+## Content
+
 # Milestone 1 : Seismic collapse capacity prediction
 
 ### files 
@@ -35,6 +39,8 @@ This project is based on two milestones:
 - model train
 - model test
 - csv submission
+
+--
 
 #### - architecture 2 with Keras (alternative milestone1)
 - imports
