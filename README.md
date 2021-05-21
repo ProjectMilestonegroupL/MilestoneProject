@@ -1,6 +1,14 @@
 # MilestoneProject
 Project introML
 
+# Table of content
+1. [Description]
+2.
+3.
+4.
+5.
+6.
+
 
 ## Description
 This project is based on two milestones:
