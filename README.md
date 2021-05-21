@@ -21,7 +21,7 @@ This project is based on two milestones:
 
 ### code architecture 
 
-#### architecture 1 with Pytorch (milestone1)
+#### - architecture 1 with Pytorch (milestone1)
 - imports
 - data recuperation
 - data reshape and transformation
@@ -31,7 +31,7 @@ This project is based on two milestones:
 - model test
 - csv submission
 
-#### architecture 2 with Keras (alternative milestone1)
+#### - architecture 2 with Keras (alternative milestone1)
 - imports
 - data recuperation
 - data reshape
