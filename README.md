@@ -23,4 +23,4 @@ Please make sure to update tests as appropriate.
 Lucie Fresard, Edouard Heinkel and Jordan Dessibourg
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[EPFL](https://choosealicense.com/licenses/epfl/)
