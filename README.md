@@ -128,7 +128,7 @@ Alternatively, TensorBoard can be launched directly from notebooks, refer to `tr
 For more information on how to use TensorBoard with PyTorch, check out [the documentation](https://pytorch.org/docs/stable/tensorboard.html).
 
 
-### progression and improvements
+### Progression & improvements
 At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one.
 We tried many optimizers and activation functions. 
 
