@@ -124,6 +124,15 @@ If you are using Google Colab, keep in mind that any changes to files besides `t
 
 By default, all runs are logged using [TensorBoard](https://www.tensorflow.org/tensorboard), which keeps track of the loss and accuracy. 
 After installing TensorBoard, type
+```
+tensorboard --logdir=runs
+```
+in the terminal to launch it.
+
+Alternatively, TensorBoard can be launched directly from notebooks, refer to `train.ipynb` for more info. (remplacer par notre doc)
+
+For more information on how to use TensorBoard with PyTorch, check out [the documentation](https://pytorch.org/docs/stable/tensorboard.html).
+
 
 ### progression and improvements
 At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one.
