@@ -1,7 +1,7 @@
 # MilestoneProject
 Project introML
 
-# Table of content
+## Table of content
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Content](#content)
