@@ -67,7 +67,7 @@ The next section is usage, in which you instruct other people on how to use your
 - optimizer
 - learning rate
 
-We create our regression model with our Pytorch knowledges.
+We created our regression model with our Pytorch knowledges.
 
 We reached quite early the minimum score required by implementing 3 hidden layers in our NN.
 We choose Adam as optimizer and ReLU as activation function.
