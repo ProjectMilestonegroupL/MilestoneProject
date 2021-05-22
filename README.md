@@ -51,7 +51,7 @@ The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` 
  - data recuperation
  - data reshape
  - model  
-   - convolutional neutral net
+   - neutral net
    - loss & optimizer
    - .csv submission file generation
  - model training & evaluation
@@ -59,7 +59,7 @@ The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` 
 ## Progression & improvements
 
 To improve our regression, we had to take count to :
- - NN architecture (numbers of hidden layers and neurons)
+ - NN architecture (numbers of hidden layers & neurons)
  - activation function
  - optimizer
  - learning rate
@@ -102,7 +102,7 @@ Here is the architecture of `train_milestone2.ipynb` (remplacer par notre doc)
  - device 
  - data
  - model 
-   - network architecture
+   - network architecture (CNN)
    - loss, optimizer & scheduler
  - save, checkpoint and log
    - TensorBoard within notebook
@@ -144,10 +144,22 @@ You can run this notebook in Colab using the following link: https://colab.resea
 
 
 ## Progression & improvements
+
+To improve our regression, we had to take count to :
+ - CNN architecture (convolution & maxpool layers) 
+ - activation function
+ - optimizer
+ - learning rate
+ - number of epochs
+ 
 At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one.
 We tried many optimizers and activation functions. 
 
-Best configuration with Adam as optimizer and Sigmoid as activation functions.
+Best configuration with Adam as optimizer and ReLU as activation function.
+
+The model overfitted so we decided to try adding dropout or/and batch normalization. We obtained the best results with both simultaneously.
+
+![alt text](https://github.com/ProjectMilestonegroupL/MilestoneProject/Milestone2.png "Logo Title Text 1")
 
 --- 
  
