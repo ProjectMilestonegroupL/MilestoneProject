@@ -36,7 +36,7 @@ We also provide three CSV files [here](https://github.com/ProjectMilestonegroupL
 
 The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` contains two complete training procedures.(remplacer par notre doc)
 
-#### - architecture 1 with Pytorch (milestone1)
+#### - architecture 1 with Pytorch `train_milestone1.ipynb`
  - imports
  - data recuperation
  - data reshape and transformation
@@ -46,7 +46,7 @@ The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` 
  - model evaluation
  - .csv submission file generation
 
-#### - architecture 2 with Keras (alternative milestone1)
+#### - architecture 2 with Keras `train_milestone1_alternative.ipynb`
  - imports
  - data recuperation
  - data reshape
