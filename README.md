@@ -29,7 +29,7 @@
 
 ### Data
 
-We also provide three CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/Milestone1/blob/main/Data/csv_files_milestone1.zip): (mettre repository en public pour que ça marche)
+We also provide three CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/Data/csv_files_milestone1.zip): 
 
 
 ### Code
@@ -86,7 +86,8 @@ All required packages can be found in `requirements.txt`.
 **You can find the dataset [here](https://drive.google.com/file/d/1otKxIvEP77Cap9VmUkujMrAMo4K8_F1c/view?usp=sharing).**
 
 This project uses the fixed scale images from the [AIST Building Change Detection dataset](https://github.com/gistairc/ABCDdataset), which consists of pairs of pre- and post-tsunami aerial images. These images should be placed in a directory named `patch-pairs` inside the `data` directory.  
-We also provide two CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/Milestone2/blob/main/Data): (mettre repository en public pour que ça marche)
+We also provide two CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Data): 
+
 - `train.csv` which contains the path to each image in the training set, as well as the target (0 for "surviving", 1 for "washed-away").
 - `test.csv` which contains the path to each image in the test set.
 
@@ -159,8 +160,7 @@ Best configuration with Adam as optimizer and ReLU as activation function.
 
 The model overfitted so we decided to try adding dropout or/and batch normalization. We obtained the best results with both simultaneously.
 
-![alt text](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png "Logo Title Text 1") (mettre repository en public)
-<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="500" height="400" />
+<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="400" height="400" />
 --- 
  
  ## Usage
