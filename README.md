@@ -58,21 +58,36 @@ The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` 
  
 ## Progression & improvements
 
-To improve our regression, we had to take count to :
- - NN architecture (numbers of hidden layers & neurons)
- - activation function
- - optimizer
- - learning rate
- - number of epochs
+We created our regression model with our Pytorch knowledges.
 
- We created our regression model with our Pytorch knowledges.
+We reached quite early the minimum score required by implementing 3 hidden layers in our NN, with Adam as optimizer and ReLU as activation function.
 
- We reached quite early the minimum score required by implementing 3 hidden layers in our NN.
- We choose Adam as optimizer and ReLU as activation function.
+Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
 
- Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
+To improve our regression, we tried :
+ - to modify the NN architecture (numbers of hidden layers & neurons)
+ - different activation functions
+   - reLU
+   - seLU
+   - sigmoid
+   - softmax
+ - different optimizers
+   - adam
+   - adagrad
+   - adadelta
+   - RMSprop
+   - SGD
+   - nadam
+   - ftrl
+ - adjust learning rate
+   - learning rate decreasing at every epoch
+   - learning rate decreasing strongly when validation loss start to increase
+ - adjust the number of epochs
+ - early stopping
 
-# Milestone 2 : Tsunami induced building collapse detection
+The best result found was with these forward NN architecture (AJOUTER IMAGE)
+
+ # Milestone 2 : Tsunami induced building collapse detection
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vita-epfl/introML-2021/blob/main/project/train.ipynb) (remplacer par notre doc)
 
