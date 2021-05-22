@@ -89,7 +89,7 @@ The best result found was with these forward NN architecture (AJOUTER IMAGE)
 
  # Milestone 2 : Tsunami induced building collapse detection
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PrpjectMilestonegroupl/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb) (remplacer par notre doc)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ProjectMilestonegroupl/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb) (remplacer par notre doc)
 
 ## Dependencies
 All required packages can be found in `requirements.txt`.
