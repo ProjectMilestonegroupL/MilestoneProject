@@ -173,17 +173,19 @@ We tried many optimizers and activation functions.
 
 Best configuration with Adam as optimizer and ReLU as activation function.
 
-The model overfitted so we decided to try adding dropout or/and batch normalization. We obtained the best results with both simultaneously. 
+The model overfitted so we decided to try adding dropout or/and batch normalization. 
+
+Here is the graph of validation loss & accuracy.
+- in red : with batch normalization 
+- in orange : with dropout
+- in pink : with batch normalization + dropout
+
+<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="400" height="400" />
+We obtained the best results with both simultaneously. 
 We reached 0.959 validation accuracy with :
 - dropout : 0.7
 - batch normalization after the second convolutional layer
 
-Here is the graph of validation loss & accuracy.
-- in red : batch normalization 
-- in orange : dropout
-- in pink : batch normalization + dropout
-
-<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="400" height="400" />
 --- 
  
  ## Usage
