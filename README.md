@@ -34,7 +34,7 @@ We also provide three CSV files [here](https://github.com/ProjectMilestonegroupL
 
 ### Code
 
-The notebook train_milestone1.ipynb contains a complete training procedure.(remplacer par notre doc)
+The notebook `train_milestone1.ipynb` contains a complete training procedure.(remplacer par notre doc)
 
 #### - architecture 1 with Pytorch (milestone1)
  - imports
