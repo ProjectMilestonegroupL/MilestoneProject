@@ -29,7 +29,7 @@
 
 ### Data
 
-**We also provide three CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/Data) into a zip.**
+**We also provide three CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1) into a zip.**
 
 
 ### Code
