@@ -29,7 +29,7 @@
 
 ### Data
 
-We also provide three CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/Milestone1/Data): (mettre repository en public pour que ça marche)
+We also provide three CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/Milestone1/Data/csv files milestone 1.zip): (mettre repository en public pour que ça marche)
 
 
 ### Code
