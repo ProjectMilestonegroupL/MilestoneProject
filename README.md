@@ -34,6 +34,8 @@ We also provide three CSV files [here](https://github.com/ProjectMilestonegroupL
 
 ### Code
 
+The notebook train_milestone1.ipynb contains a complete training procedure.(remplacer par notre doc)
+
 #### - architecture 1 with Pytorch (milestone1)
  - imports
  - data recuperation
@@ -90,9 +92,9 @@ We also provide two CSV files [here](https://github.com/ProjectMilestonegroupL/M
 
 ### Code
 
-The notebook `train.ipynb` contains a complete training procedure.(remplacer par notre doc)
+The notebook `train_milestone2.ipynb` contains a complete training procedure.(remplacer par notre doc)
 
-Here is the architecture of `train.ipynb` (remplacer par notre doc)
+Here is the architecture of `train_milestone2.ipynb` (remplacer par notre doc)
 
  - for Google Colab
  - setup
@@ -126,7 +128,7 @@ tensorboard --logdir=runs
 ```
 in the terminal to launch it.
 
-Alternatively, TensorBoard can be launched directly from notebooks, refer to `train.ipynb` for more info. (remplacer par notre doc)
+Alternatively, TensorBoard can be launched directly from notebooks, refer to `train_milestone2.ipynb` for more info. (remplacer par notre doc)
 
 For more information on how to use TensorBoard with PyTorch, check out [the documentation](https://pytorch.org/docs/stable/tensorboard.html).
 
