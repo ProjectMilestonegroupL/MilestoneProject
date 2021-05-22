@@ -12,8 +12,8 @@
 
 ## Description
  This project is based on two milestones:
- Milestone 1 : Seismic collapse capacity prediction
- Milestone 2 : Tsunami induced building collapse detection
+- Milestone 1 : Seismic collapse capacity prediction
+- Milestone 2 : Tsunami induced building collapse detection
 
 ---
 
