@@ -171,7 +171,7 @@ To improve our regression, we had to take count of :
 At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one. The final architecture is (insérer image du code)
 We tried many optimizers and activation functions. 
 
-Best configuration with Adam as optimizer and ReLU as activation function.
+Best configuration with Adam as optimizer and reLU as activation function.
 
 The model overfitted so we decided to try adding dropout or/and batch normalization. 
 
