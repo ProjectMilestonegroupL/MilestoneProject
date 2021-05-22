@@ -159,7 +159,7 @@ Best configuration with Adam as optimizer and ReLU as activation function.
 
 The model overfitted so we decided to try adding dropout or/and batch normalization. We obtained the best results with both simultaneously.
 
-![alt text](https://github.com/ProjectMilestonegroupL/MilestoneProject/Milestone2/Accuracy.png "Logo Title Text 1") (mettre repository en public)
+![alt text](https://github.com/ProjectMilestonegroupL/MilestoneProject/Milestone2/blob/main/Accuracy.png "Logo Title Text 1") (mettre repository en public)
 
 --- 
  
