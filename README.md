@@ -101,7 +101,7 @@ All required packages can be found in `requirements.txt`.
 **You can find the dataset [here](https://drive.google.com/file/d/1otKxIvEP77Cap9VmUkujMrAMo4K8_F1c/view?usp=sharing).**
 
 This project uses the fixed scale images from the [AIST Building Change Detection dataset](https://github.com/gistairc/ABCDdataset), which consists of pairs of pre- and post-tsunami aerial images. These images should be placed in a directory named `patch-pairs` inside the `data` directory.  
-**We also provide two CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Data):**
+**We also provide two CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Data/train_milestone2.ipynb):**
 
 - `train.csv` which contains the path to each image in the training set, as well as the target (0 for "surviving", 1 for "washed-away").
 - `test.csv` which contains the path to each image in the test set.
