@@ -38,7 +38,7 @@ class Trainer:
         device: torch.device,
         train_loader: DataLoader,
         val_loader: Optional[DataLoader] = None,
-        scheduler: Optional = None,  # Type: torch.optim.lr_scheduler._LRScheduler
+        scheduler: Optional = torch.optim.lr_scheduler._LRScheduler,  # Type: torch.optim.lr_scheduler._LRScheduler
         writer: Optional[SummaryWriter] = None,
         save_path: Optional[str] = None,
         checkpoint_path: Optional[str] = None,
