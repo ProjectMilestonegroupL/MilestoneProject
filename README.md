@@ -186,6 +186,7 @@ Here is the graph of validation loss & accuracy.
 We obtained the best results with both simultaneously. 
 
 We added then a scheduler who decrease strongly the learning rate when our model doesn't learn anymore.
+
 We reached 0.959 validation accuracy with a 0.7 dropout after the flatten and batch normalization after the second convolutional layer
 
 --- 
