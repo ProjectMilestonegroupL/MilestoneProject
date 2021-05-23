@@ -89,7 +89,7 @@ The best result found was with these forward NN architecture (AJOUTER IMAGE)
 
  # Milestone 2 : Tsunami induced building collapse detection
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb) (remplacer par notre doc)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb) 
 
 ## Dependencies
 All required packages can be found in `requirements.txt`.
@@ -150,8 +150,8 @@ For more information on how to use TensorBoard with PyTorch, check out [the docu
 
 ### Google Colab
 
-You can run this notebook in Colab using the following link: https://colab.research.google.com/github/vita-epfl/introML-2021/blob/main/project/train.ipynb
-(remplacer par notre doc)
+You can run this notebook in Colab using the following link:(https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb)
+
 
 **Important info:** 
 - To train models much quicker, switch to a GPU runtime (*Runtime -> Change runtime type -> GPU*)
