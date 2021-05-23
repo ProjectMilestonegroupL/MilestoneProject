@@ -132,7 +132,7 @@ In addition, here is a brief description of what each of the provided Python fil
 - `dataset.py`: Contains `PatchPairsDataset`, a PyTorch Dataset class that loads pairs of images and their target, as well as a function to split datasets into training and validation sets.
 - `evaluator.py`: Evaluates and generates prediction from a trained model
 - `metrics.py`: Metrics to keep track of the loss and accuracy during training
-- `trainer.py`: Contains `Trainer`, a class which implements the training loop as well as utilities to log the training process to TensorBoard, and load & save models
+- `trainer.py`: Contains `Trainer`, a class which implements the training loop as well as utilities to log the training process to TensorBoard, and load & save models. Note : we changed this document by adding a scheduler.
 - `utils.py`: Utilities for displaying pairs of images and generating a submission CSV
 
 If you are using Google Colab, keep in mind that any changes to files besides `train.ipynb` will get discarded when your session terminates.
@@ -184,6 +184,8 @@ Here is the graph of validation loss & accuracy.
 
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="400" height="400" />
 We obtained the best results with both simultaneously. 
+
+We added then a scheduler who decrease strongly the learning rate when our model doesn't learn anymore.
 We reached 0.959 validation accuracy with a 0.7 dropout after the flatten and batch normalization after the second convolutional layer
 
 --- 
