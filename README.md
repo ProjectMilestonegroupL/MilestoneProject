@@ -87,9 +87,8 @@ To improve our regression, we tried :
 
 The best result found was with these forward NN architecture (AJOUTER IMAGE)
 
- # Milestone 2 : Tsunami induced building collapse detection
+# Milestone 2 : Tsunami induced building collapse detection
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb) 
 
 ## Dependencies
 All required packages can be found in `requirements.txt`.
@@ -108,9 +107,12 @@ This project uses the fixed scale images from the [AIST Building Change Detectio
 
 ### Code
 
-The notebook `train_milestone2.ipynb` contains a complete training procedure.(remplacer par notre doc)
+The notebook `train_milestone2.ipynb` contains a complete training procedure.
+It contains everything needed to load the dataset, view image pairs, train a model and generate a CSV submission file with predictions.
 
-Here is the architecture of `train_milestone2.ipynb` (remplacer par notre doc)
+You can open the notebook via Google Collab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb) 
+
+Here is the architecture of `train_milestone2.ipynb` 
 
  - for Google Colab
  - setup
