@@ -142,10 +142,10 @@ Here is the architecture of `train_milestone2.ipynb`
  - .csv submission file generation
 
 In addition, here is a brief description of what each of the provided Python files does:
-- `dataset.py`: Contains `PatchPairsDataset`, a PyTorch Dataset class that loads pairs of images and their target, as well as a function to split datasets into training and validation sets.
-- `evaluator.py`: Evaluates and generates prediction from a trained model
-- `metrics.py`: Metrics to keep track of the loss and accuracy during training
-- `trainer.py`: Contains `Trainer`, a class which implements the training loop as well as utilities to log the training process to TensorBoard, and load & save models. Note : we changed this document by adding a scheduler.
+- `dataset.py`: contains `PatchPairsDataset`, a PyTorch Dataset class that loads pairs of images and their target, as well as a function to split datasets into training and validation sets.
+- `evaluator.py`: evaluates and generates prediction from a trained model
+- `metrics.py`: metrics to keep track of the loss and accuracy during training
+- `trainer.py`: contains `Trainer`, a class which implements the training loop as well as utilities to log the training process to TensorBoard, and load & save models. Note : we changed this document by adding a scheduler.
 - `utils.py`: Utilities for displaying pairs of images and generating a submission CSV
 
 If you are using Google Colab, keep in mind that any changes to files besides `train.ipynb` will get discarded when your session terminates.
@@ -220,7 +220,7 @@ The next section is usage, in which you instruct other people on how to use your
  ## Authors
  Lucie Frésard, Edouard Heinkel and Jordan Dessibourg
  
- SCIPER : 316399, 301796, 
+ SCIPER : 316399, 301796, 289133
 
  ---
 
