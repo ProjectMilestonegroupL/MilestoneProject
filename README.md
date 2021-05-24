@@ -34,7 +34,7 @@
 
 ### Code
 
-The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` contains two complete training procedures.(remplacer par notre doc)
+The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` contains two complete training procedures.
 
 #### - architecture 1 with Pytorch `train_milestone1.ipynb`
  - imports
@@ -71,6 +71,7 @@ To improve our regression, we tried :
    - seLU
    - sigmoid
    - softmax
+   - softsign
  - different optimizers
    - Adam
    - AdamW
@@ -87,6 +88,7 @@ To improve our regression, we tried :
  - adjust the batch size
  - early stopping
 
+Many possibilites gave us good results but we didn't find a configuration much better than others.
 The best result found was with these forward NN architecture (AJOUTER IMAGE)
 
 # Milestone 2 : Tsunami induced building collapse detection
