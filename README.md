@@ -73,10 +73,10 @@ To improve our regression, we tried :
    - softmax
    - softsign
  - different optimizers
-   - Adam
-   - AdamW
-   - Adagrad
-   - Adadelta
+   - adam
+   - adamax
+   - adagrad
+   - adadelta
    - RMSprop
    - SGD
    - nadam
