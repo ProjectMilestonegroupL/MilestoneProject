@@ -40,7 +40,7 @@ The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` 
  - imports
  - data recuperation
  - data reshape and transformation
- - neutral net
+ - neural network
  - loss and optimizer
  - model training
  - model evaluation
@@ -51,7 +51,7 @@ The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` 
  - data recuperation
  - data reshape
  - model  
-   - neutral net
+   - neural network
    - loss & optimizer
    - .csv submission file generation
  - model training & evaluation
@@ -65,16 +65,17 @@ We reached quite early the minimum score required by implementing 3 hidden layer
 Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
 
 To improve our regression, we tried :
- - to modify the NN architecture (numbers of hidden layers & neurons)
+ - to modify the NN architecture (size and numbers of hidden layers)
  - different activation functions
    - reLU
    - seLU
    - sigmoid
    - softmax
  - different optimizers
-   - adam
-   - adagrad
-   - adadelta
+   - Adam
+   - AdamW
+   - Adagrad
+   - Adadelta
    - RMSprop
    - SGD
    - nadam
@@ -83,6 +84,7 @@ To improve our regression, we tried :
    - learning rate decreasing at every epoch
    - learning rate decreasing strongly when validation loss start to increase
  - adjust the number of epochs
+ - adjust the batch size
  - early stopping
 
 The best result found was with these forward NN architecture (AJOUTER IMAGE)
@@ -110,7 +112,7 @@ This project uses the fixed scale images from the [AIST Building Change Detectio
 The notebook `train_milestone2.ipynb` contains a complete training procedure.
 It contains everything needed to load the dataset, view image pairs, train a model and generate a CSV submission file with predictions.
 
-You can open the notebook via Google Collab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb) 
+You can open the notebook via Google Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb) 
 
 Here is the architecture of `train_milestone2.ipynb` 
 
@@ -173,7 +175,7 @@ To improve our regression, we had to take count of :
 At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one. The final architecture is (insérer image du code)
 We tried many optimizers and activation functions. 
 
-Best configuration with Adam as optimizer and reLU as activation function.
+Best configuration was with Adam as optimizer and reLU as activation function.
 
 The model overfitted so we decided to try adding dropout or/and batch normalization. 
 
@@ -185,7 +187,7 @@ Here is the graph of validation loss & accuracy.
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="400" height="400" />
 We obtained the best results with both simultaneously. 
 
-Finally, we a scheduler who decrease the learning rate when our model doesn't learn anymore.
+Finally, we used a scheduler who decrease the learning rate when our model doesn't learn anymore.
 
 We reached 0.959 validation accuracy with a 0.7 dropout after the flatten and batch normalization after the second convolutional layer
 
@@ -205,7 +207,8 @@ The next section is usage, in which you instruct other people on how to use your
  --- 
 
  ## Authors
- Lucie Fresard, Edouard Heinkel and Jordan Dessibourg
+ Lucie Frésard, Edouard Heinkel and Jordan Dessibourg
+ SCIPER : 316399, 301796, 
 
  ---
 
