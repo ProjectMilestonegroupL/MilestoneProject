@@ -31,6 +31,9 @@
 
 **We provide three CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1) into a zip.**
 
+- `train.csv` which contains the path to each image in the training set, as well as the target (0 for "surviving", 1 for "washed-away").
+- `validation.csv`
+- `test.csv` which contains the path to each image in the test set.
 
 ### Code
 
