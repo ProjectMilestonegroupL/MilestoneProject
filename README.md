@@ -31,9 +31,15 @@
 
 **We provide three CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1) into a zip.**
 
-- `train.csv` which contains the path to each image in the training set, as well as the target (0 for "surviving", 1 for "washed-away").
-- `validation.csv`
-- `test.csv` which contains the path to each image in the test set.
+- `train_set.csv` & `val_set.csv` which contains metadata on ground motion intensity measures for about 14'000 past earthquakes recorded around the world.
+- `test_set.csv` which contains metadata on ground motion intensity measures for 3'000 past earthquakes recorded around the world without their collapse capacity.
+
+The following ground motion intensity measures are included in the dataset:
+- spectral accelerations at 105 different periods ranging from 0.01s up to 10s : Sa(T)
+- average spectral accelerations : Sa.avg
+- two different measures of ground motion durations : da5_75 and da5_95
+- filtered incremental velocity : FIV3 
+- contain the collapse capacities : sat1_col (not in the test set)
 
 ### Code
 
