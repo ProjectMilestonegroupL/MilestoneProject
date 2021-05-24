@@ -146,7 +146,7 @@ In addition, here is a brief description of what each of the provided Python fil
 - `evaluator.py`: evaluates and generates prediction from a trained model
 - `metrics.py`: metrics to keep track of the loss and accuracy during training
 - `trainer.py`: contains `Trainer`, a class which implements the training loop as well as utilities to log the training process to TensorBoard, and load & save models. Note : we changed this document by adding a scheduler.
-- `utils.py`: Utilities for displaying pairs of images and generating a submission CSV
+- `utils.py`: utilities for displaying pairs of images and generating a submission CSV
 
 If you are using Google Colab, keep in mind that any changes to files besides `train.ipynb` will get discarded when your session terminates.
 
