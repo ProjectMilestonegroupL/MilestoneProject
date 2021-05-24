@@ -60,7 +60,7 @@ The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` 
 
 We created our regression model with our Pytorch knowledges.
 
-We reached quite early the minimum score required by implementing 3 hidden layers in our NN, with Adam as optimizer and ReLU as activation function.
+We reached quite early the minimum score required by implementing 2 hidden layers in our NN, with Adam as optimizer and ReLU as activation function.
 
 Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
 
