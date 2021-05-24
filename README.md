@@ -208,6 +208,7 @@ The next section is usage, in which you instruct other people on how to use your
 
  ## Authors
  Lucie Frésard, Edouard Heinkel and Jordan Dessibourg
+ 
  SCIPER : 316399, 301796, 
 
  ---
