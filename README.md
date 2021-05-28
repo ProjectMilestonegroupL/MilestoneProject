@@ -84,8 +84,7 @@ To improve our regression, we tried :
  - different activation functions
    - reLU
    - seLU
-   - sigmoid
-   - softmax
+   - eLU
    - softsign
  - different optimizers
    - adam
@@ -96,7 +95,7 @@ To improve our regression, we tried :
    - SGD
    - nadam
    - ftrl
- - adjust learning rate
+ - to adjust the learning rate
    - learning rate decreasing at every epoch
    - learning rate decreasing strongly when validation loss start to increase
  - to adjust the number of epochs
