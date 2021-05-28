@@ -9,8 +9,8 @@
  1. [Description](#description)
  2. [Installation](#installation)
  3. [Content](#content)
- 4. [Usage](#usage)
- 5. [Contributing](#contributing)
+ 4. [Contributing](#contributing)
+ 5. [Sources](#sources)
  6. [Authors](#authors)
  7. [License](#license)
 
@@ -23,7 +23,7 @@
 
 ## Installation
 
-You will also need to specify which libraries should be installed.
+We used the same 
 
 ---
 
@@ -226,9 +226,9 @@ Finally we tried to add a sigmoid layer, who is a popular activation function in
 
 --- 
  
- ## Usage
+ ## Sources
  
-The next section is usage, in which you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+
 
 ---
 
