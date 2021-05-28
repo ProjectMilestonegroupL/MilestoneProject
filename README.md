@@ -133,9 +133,16 @@ We reached a 0.150 MSE loss (submission #140955)
 
 
 ## Dependencies
+
 All required packages can be found in `requirements.txt`.
 
 ## Project structure
+
+### Zip submitted : `Milestone2_groupL.zip`
+
+### Launch
+
+After unzip `Milestone2_groupL.zip` you can open `train_milestone2` via Google Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb) By running the 2 first cell, you automaticaly cloned the repository with all you need and download the dataset.
 
 ### Data
 
@@ -191,11 +198,6 @@ in the terminal to launch it.
 Alternatively, TensorBoard can be launched directly from notebooks, refer to `train_milestone2.ipynb` for more info. (remplacer par notre doc)
 
 For more information on how to use TensorBoard with PyTorch, check out [the documentation](https://pytorch.org/docs/stable/tensorboard.html).
-
-### Google Colab
-
-You can run this notebook in Colab using the following link:(https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb)
-
 
 **Important info:** 
 - To train models much quicker, switch to a GPU runtime (*Runtime -> Change runtime type -> GPU*)
