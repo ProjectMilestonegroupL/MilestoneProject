@@ -238,6 +238,8 @@ Finally we tried to add a sigmoid layer, who is a popular activation function in
 - introML course/exercices documentation 
   - https://moodle.epfl.ch/course/view.php?id=16461
   - https://github.com/vita-epfl/introML-2021
+- Pytorch
+  - https://pytorch.org/docs/stable/nn.html
 - Keras
   - https://machinelearningmastery.com/regression-tutorial-keras-deep-learning-library-python/
   - https://keras.io/api/
