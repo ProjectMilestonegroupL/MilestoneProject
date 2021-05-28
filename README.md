@@ -197,6 +197,10 @@ Then we made several changes to obtain a good one.
 
 The model overfitted so we decided to try adding dropout or/and a batch normalization. 
 
+The dropout is a regularization technique. It prevent overfitting by randomly selecting neurons who will be ignored during training.
+
+The batch normalization is a method used to make artificial neural networks faster and more stable through normalization of the layers' inputs by re-centering and re-scaling.
+
 Here is the graph of validation loss & accuracy.
 - in red : with batch normalization 
 - in orange : with dropout
