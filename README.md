@@ -202,7 +202,7 @@ For more information on how to use TensorBoard with PyTorch, check out [the docu
 **Important info:** 
 - To train models much quicker, switch to a GPU runtime (*Runtime -> Change runtime type -> GPU*)
 - Copy the Colab notebook to your Google Drive (*File -> Save a copy in Drive*) so that your changes to the training notebook persist.
-- All files with the exception of the training notebook (`train.ipynb`) get deleted when your session terminates. Make sure to download all the relevant files (e.g. submissions, trained models, logs) before ending your session.
+- All files with the exception of the training notebook (`train_milestone2.ipynb`) get deleted when your session terminates. Make sure to download all the relevant files (e.g. submissions, trained models, logs) before ending your session.
 
 ## Progression & improvements
 
