@@ -112,6 +112,8 @@ The best result found was with these forward NN architecture
 
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/NN Model.png" width="600" height="500" />
 
+(Picture from `train_milestone1_alternative.ipynb`)
+
 We reached a 0.150 MSE loss (submission #140955)
 
 # Milestone 2 : Tsunami induced building collapse detection
@@ -216,7 +218,7 @@ Here is the graph of validation loss & accuracy.
 
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="400" height="500" />
 
-from `train_milestone1_alternative.ipynb`
+(Picture from `train_milestone2.ipynb`)
 
 
 We obtained the best results with both simultaneously. 
@@ -228,6 +230,8 @@ We reached 0.959 validation accuracy with a 0.7 dropout just before the flatten 
 (Submission #139964) 
 
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/CNN Model.png" width="380" height="500" />
+
+(Picture from `train_milestone2.ipynb`)
 
 We tried to change optimizers and activation functions but still had best configuration with Adam as optimizer and reLU as activation function.
 
