@@ -54,9 +54,10 @@ The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` 
 #### - architecture 1 with Pytorch `train_milestone1.ipynb`
  - imports
  - data recuperation
- - data reshape and transformation
+ - data reshape & transformation
  - neural network
- - loss and optimizer
+ - loss & optimizer
+ - loss metric function
  - model training
  - model evaluation
  - .csv submission file generation
@@ -78,6 +79,7 @@ We created our regression model with our Pytorch knowledges.
 We reached quite early the minimum score required by implementing 2 hidden layers in our NN, with Adam as optimizer and ReLU as activation function.
 
 Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
+If you want more informations about Keras : https://keras.io/about/
 
 To improve our regression, we tried :
  - to modify the NN architecture (size and numbers of hidden layers)
@@ -106,6 +108,8 @@ Many possibilites gave us good results but we didn't find a configuration much b
 The best result found was with these forward NN architecture 
 
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/NN Model.png" width="550" height="500" />
+
+We reached a 0.150 MSE loss (submission #140955)
 
 # Milestone 2 : Tsunami induced building collapse detection
 
