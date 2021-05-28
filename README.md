@@ -23,7 +23,9 @@
 
 ## Installation
 
-No other packages than those used in introML course exercices are necessary.
+No other packages than those used in introML course exercices are necessary except Keras 
+
+If you want more informations about Keras : https://keras.io/about/
 
 ---
 
@@ -79,7 +81,6 @@ We created our regression model with our Pytorch knowledges.
 We reached quite early the minimum score required by implementing 2 hidden layers in our NN, with Adam as optimizer and ReLU as activation function.
 
 Then, we decided to try using Keras and we saw that it's easier and quicker to make our trainings.
-If you want more informations about Keras : https://keras.io/about/
 
 To improve our regression, we tried :
  - to modify the NN architecture (size and numbers of hidden layers)
@@ -234,7 +235,12 @@ Finally we tried to add a sigmoid layer, who is a popular activation function in
  
  ## Sources
  
-
+- introML course/exercices documentation 
+  - https://moodle.epfl.ch/course/view.php?id=16461
+  - https://github.com/vita-EPFL/introML-2021/blob/main
+- Keras
+  - https://machinelearningmastery.com/regression-tutorial-keras-deep-learning-library-python/
+  - https://keras.io/api/
 
 ---
 
