@@ -179,7 +179,7 @@ You can run this notebook in Colab using the following link:(https://colab.resea
 ## Progression & improvements
 
 To improve our regression, we had to take count of :
- - CNN architecture (convolution & maxpool layers) 
+ - CNN architecture  
  - activation function
  - optimizer
  - learning rate
