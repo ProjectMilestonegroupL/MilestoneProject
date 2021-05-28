@@ -222,7 +222,7 @@ After that, we used a scheduler who decrease the learning rate when our model do
 We reached 0.959 validation accuracy with a 0.7 dropout just before the flatten and a batch normalization after the second convolutional layer with this model.
 (Submission #139964) 
 
-<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/CNN Model.png" width="350" height="500" />
+<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/CNN Model.png" width="380" height="500" />
 
 We tried to change optimizers and activation functions but still had best configuration with Adam as optimizer and reLU as activation function.
 
