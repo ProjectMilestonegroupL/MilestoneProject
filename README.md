@@ -203,6 +203,7 @@ Here is the graph of validation loss & accuracy.
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="400" height="400" />
 We obtained the best results with both simultaneously. 
 
+
 After that, we used a scheduler who decrease the learning rate when our model doesn't learn anymore.
 
 We reached 0.959 validation accuracy with a 0.7 dropout just before the flatten and batch normalization after the second convolutional layer.
