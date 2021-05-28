@@ -213,7 +213,7 @@ Here is the graph of validation loss & accuracy.
 - in orange : with dropout
 - in pink : with batch normalization + dropout
 
-<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="400" height="450" />
+<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="400" height="500" />
 We obtained the best results with both simultaneously. 
 
 
