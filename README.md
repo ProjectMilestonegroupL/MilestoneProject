@@ -147,7 +147,7 @@ By running the 2 first cell, you automaticaly cloned the repository with all Pyt
 
 ### Data
 
-**You can find the dataset [here](https://drive.google.com/file/d/1otKxIvEP77Cap9VmUkujMrAMo4K8_F1c/view?usp=sharing).**
+**You can also find the dataset [here](https://drive.google.com/file/d/1otKxIvEP77Cap9VmUkujMrAMo4K8_F1c/view?usp=sharing).**
 
 This project uses the fixed scale images from the [AIST Building Change Detection dataset](https://github.com/gistairc/ABCDdataset), which consists of pairs of pre- and post-tsunami aerial images. These images should be placed in a directory named `patch-pairs` inside the `data` directory.  
 **We also provide two CSV files [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Data):**
