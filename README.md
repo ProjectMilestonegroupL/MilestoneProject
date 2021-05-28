@@ -32,6 +32,9 @@ If you want more informations about Keras : https://keras.io/about/
 ## Content
 
 # Milestone 1 : Seismic collapse capacity prediction
+
+## Dependencies
+All required packages 
  
 ## Project structure
 
@@ -117,7 +120,7 @@ To improve our regression, we tried :
 Many possibilites gave us good results (< 0.160 MSE loss) but we didn't find a configuration much better than others.
 The model overfitted then we tried to add a dropout for regularizazion. It prevent overfitting by randomly selecting neurons who will be ignored during training.  
 
-The best result found was with these forward NN architecture 
+The best result found was with these forward NN architecture :
 
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/NN Model.png" width="650" height="500" />
 
