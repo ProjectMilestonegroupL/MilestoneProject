@@ -185,7 +185,7 @@ To improve our regression, we had to take count of :
  - learning rate
  - number of epochs
  
-At first we based our architecture similarly at LeNet CNN (2 convolutional layer and 2 maxpool layers) and we reach 0.929 accuracy.
+At first we based our architecture similarly at LeNet CNN (2 convolutional layers and 2 maxpool layers) and we reached 0.929 accuracy.
 
 Then we made several changes to obtain a good one. 
 - We tried with 3 convolutional & 3 maxpool ans we obtained 0.935 accuracy.
