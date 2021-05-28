@@ -40,7 +40,7 @@ If you want more informations about Keras : https://keras.io/about/
 ### Data
 
 **We provide three CSV files in the zip submitted  `Milestone1_groupL.zip`.**
-(You can alternatively fount it [here
+(You can alternatively fount it [here]
 (https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1) into csv_files_milestone1.zip)
 
 - `train_set.csv` & `val_set.csv` which contains metadata on ground motion intensity measures for about 14'000 past earthquakes recorded around the world.
