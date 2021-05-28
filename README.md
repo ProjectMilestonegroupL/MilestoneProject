@@ -19,6 +19,8 @@
 
 ## Installation
 
+You will also need to specify which libraries should be installed.
+
 ---
 
 ## Content
