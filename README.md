@@ -39,7 +39,7 @@ If you want more informations about Keras : https://keras.io/about/
 
 ### Launch
 
-You just have to unzip `Milestone1_groupL.zip` and to upload the folder in jupyter, deepnote or else...)
+You just have to unzip `Milestone1_groupL.zip` and to upload the folder in jupyter, deepnote or else...
 
 ### Data
 
