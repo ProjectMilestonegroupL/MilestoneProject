@@ -215,6 +215,7 @@ Here is the graph of validation loss & accuracy.
 - in pink : with batch normalization + dropout
 
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/Accuracy.png" width="400" height="500" />
+
 from `train_milestone1_alternative.ipynb`
 
 
