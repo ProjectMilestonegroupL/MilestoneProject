@@ -35,6 +35,8 @@ If you want more informations about Keras : https://keras.io/about/
  
 ## Project structure
 
+### Zip submitted `Milestone1_groupL.zip`
+
 ### Data
 
 **We provide three CSV files in the zip submitted  `Milestone1_groupL.zip`. (You can alternatively fount it [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1) into csv_files_milestone1.zip)**
