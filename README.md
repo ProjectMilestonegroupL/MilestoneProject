@@ -142,7 +142,8 @@ All required packages can be found in `requirements.txt`.
 
 ### Launch
 
-After unzip `Milestone2_groupL.zip` you can open `train_milestone2` via Google Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb) By running the 2 first cell, you automaticaly cloned the repository with all you need and download the dataset.
+After unzip `Milestone2_groupL.zip` you can open `train_milestone2` via Google Colab. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/train_milestone2.ipynb)   
+By running the 2 first cell, you automaticaly cloned the repository with all you need and download the dataset.
 
 ### Data
 
