@@ -39,7 +39,9 @@ If you want more informations about Keras : https://keras.io/about/
 
 ### Data
 
-**We provide three CSV files in the zip submitted  `Milestone1_groupL.zip`. (You can alternatively fount it [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1) into csv_files_milestone1.zip)**
+**We provide three CSV files in the zip submitted  `Milestone1_groupL.zip`.**
+(You can alternatively fount it [here
+(https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1) into csv_files_milestone1.zip)
 
 - `train_set.csv` & `val_set.csv` which contains metadata on ground motion intensity measures for about 14'000 past earthquakes recorded around the world.
 - `test_set.csv` which contains metadata on ground motion intensity measures for 3'000 past earthquakes recorded around the world without their collapse capacity.
@@ -53,7 +55,11 @@ The following ground motion intensity measures are included in the dataset:
 
 ### Code
 
-The notebooks `train_milestone1.ipynb` and `train_milestone1_alternative.ipynb` contains two complete training procedures.
+**We provide also in `Milestone1_groupL.zip` two notebooks:**
+-`train_milestone1.ipynb` 
+-`train_milestone1_alternative.ipynb` 
+
+It contains two complete training procedures. (You can alternatively fount it [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1))
 
 #### - architecture 1 with Pytorch `train_milestone1.ipynb`
  - imports
