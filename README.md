@@ -109,7 +109,7 @@ The model overfitted then we tried to add a dropout for regularizazion. It preve
 
 The best result found was with these forward NN architecture 
 
-<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/NN Model.png" width="550" height="500" />
+<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/NN Model.png" width="600" height="500" />
 
 We reached a 0.150 MSE loss (submission #140955)
 
