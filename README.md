@@ -206,7 +206,7 @@ We obtained the best results with both simultaneously.
 
 After that, we used a scheduler who decrease the learning rate when our model doesn't learn anymore.
 
-We reached 0.959 validation accuracy with a 0.7 dropout just before the flatten and batch normalization after the second convolutional layer.
+We reached 0.959 validation accuracy with a 0.7 dropout just before the flatten and a batch normalization after the second convolutional layer.
 
 Finally we tried to add a sigmoid layer, who is a popular activation function in CNN when it placed before the output, but it didn't provide us better results.
 
