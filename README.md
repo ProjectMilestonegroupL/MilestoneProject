@@ -189,7 +189,7 @@ At first we based our architecture similarly at LeNet CNN (2 convolutional layer
 
 Then we made several changes to obtain a good one. 
 - We tried with 3 convolutional & 3 maxpool ; we obtained 0.935 accuracy.
-- We tried to add a 4th maxpool just before the 3rd ; we reached 0.940 accuracy.
+- We tried to add a 4th maxpool just after the 3rd ; we reached 0.940 accuracy.
 
 We tried to change optimizers and activation functions but still had best configuration with Adam as optimizer and reLU as activation function.
 
