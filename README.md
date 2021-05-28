@@ -195,8 +195,6 @@ Then we made several changes to obtain a good one.
 - We tried with 3 convolutional & 3 maxpool ; we obtained 0.935 accuracy.
 - We tried to add a 4th maxpool just after the 3rd ; we reached 0.940 accuracy.
 
-We tried to change optimizers and activation functions but still had best configuration with Adam as optimizer and reLU as activation function.
-
 The model overfitted so we decided to try adding dropout or/and a batch normalization. 
 
 Here is the graph of validation loss & accuracy.
@@ -215,6 +213,7 @@ We reached 0.959 validation accuracy with a 0.7 dropout just before the flatten 
 
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/CNN Model.png" width="350" height="500" />
 
+We tried to change optimizers and activation functions but still had best configuration with Adam as optimizer and reLU as activation function.
 
 Finally we tried to add a sigmoid layer, who is a popular activation function in CNN when it placed before the output, but it didn't provide us better results.
 
