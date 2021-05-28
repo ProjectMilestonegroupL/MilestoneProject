@@ -119,7 +119,7 @@ The model overfitted then we tried to add a dropout for regularizazion. It preve
 
 The best result found was with these forward NN architecture 
 
-<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/NN Model.png" width="600" height="500" />
+<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/NN Model.png" width="650" height="500" />
 
 (Screenshot from `train_milestone1_alternative.ipynb`)
 
