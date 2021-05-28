@@ -1,8 +1,8 @@
 # MilestoneProject
- Project introML group L
- AIcrowd team name : LU_EH_JD
- Best submission Milestone 1 : #140955
- Best submission Milestone 2 : #139964
+ Project introML group L   
+ AIcrowd team name : LU_EH_JD  
+ Best submission Milestone 1 : #140955  
+ Best submission Milestone 2 : #139964  
 
 graded
 
