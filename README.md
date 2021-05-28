@@ -215,6 +215,8 @@ We reached 0.959 validation accuracy with a 0.7 dropout just before the flatten 
 
 We tried to change optimizers and activation functions but still had best configuration with Adam as optimizer and reLU as activation function.
 
+We also tried to adjust the learning rate, the number of epochs & the batch size but we kept the initial values as they gave us the best results.
+
 Finally we tried to add a sigmoid layer, who is a popular activation function in CNN when it placed before the output, but it didn't provide us better results.
 
 --- 
