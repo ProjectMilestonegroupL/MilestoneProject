@@ -15,7 +15,7 @@
  7. [License](#license)
 
 ## Description
- This project is based on two milestones:
+ This project is based on two milestones :
 - Milestone 1 : Seismic collapse capacity prediction
 - Milestone 2 : Tsunami induced building collapse detection
 
