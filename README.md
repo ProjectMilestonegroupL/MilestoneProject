@@ -93,8 +93,8 @@ To improve our regression, we tried :
  - adjust learning rate
    - learning rate decreasing at every epoch
    - learning rate decreasing strongly when validation loss start to increase
- - adjust the number of epochs
- - adjust the batch size
+ - to adjust the number of epochs
+ - to adjust the batch size
  - early stopping
 
 Many possibilites gave us good results but we didn't find a configuration much better than others.
