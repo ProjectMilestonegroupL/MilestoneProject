@@ -45,7 +45,7 @@ The following ground motion intensity measures are included in the dataset:
 - average spectral accelerations : Sa.avg
 - two different measures of ground motion durations : da5_75 and da5_95
 - filtered incremental velocity : FIV3 
-- contain the collapse capacities : sat1_col (not in the test set)
+- collapse capacities : sat1_col (not in the test set)
 
 ### Code
 
@@ -105,6 +105,8 @@ To improve our regression, we tried :
  - early stopping
 
 Many possibilites gave us good results (< 0.160 MSE loss) but we didn't find a configuration much better than others.
+The model overfitted then we tried to add a dropout for regularizazion. It prevent overfitting by randomly selecting neurons who will be ignored during training.  
+
 The best result found was with these forward NN architecture 
 
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/NN Model.png" width="550" height="500" />
