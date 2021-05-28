@@ -35,7 +35,7 @@ If you want more informations about Keras : https://keras.io/about/
  
 ## Project structure
 
-### Zip submitted `Milestone1_groupL.zip`
+### Zip submitted : `Milestone1_groupL.zip`
 
 ### Data
 
