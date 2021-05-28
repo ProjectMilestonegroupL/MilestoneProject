@@ -23,7 +23,7 @@
 
 ## Installation
 
-We used the same 
+No other packages than those used in introML course exercices are necessary.
 
 ---
 
@@ -104,7 +104,7 @@ To improve our regression, we tried :
  - to adjust the batch size
  - early stopping
 
-Many possibilites gave us good results but we didn't find a configuration much better than others.
+Many possibilites gave us good results (< 0.160 MSE loss) but we didn't find a configuration much better than others.
 The best result found was with these forward NN architecture 
 
 <img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/NN Model.png" width="550" height="500" />
