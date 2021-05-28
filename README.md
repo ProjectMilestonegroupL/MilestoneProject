@@ -185,12 +185,15 @@ To improve our regression, we had to take count of :
  - learning rate
  - number of epochs
  
-At first we based our architecture similarly at LeNet CNN and then we made several changes to obtain a good one. The final architecture is (insérer image du code)
-We tried many optimizers and activation functions. 
+At first we based our architecture similarly at LeNet CNN (2 convolutional layer and 2 maxpool layers) and we reach 0.929 accuracy.
 
-Best configuration was with Adam as optimizer and reLU as activation function.
+Then we made several changes to obtain a good one. 
+- We tried with 3 convolutional & 3 maxpool ans we obtained 0.935 accuracy.
+- We tried to add a 4th maxpool just before the 3rd and we reached 0.940 accuracy.
 
-The model overfitted so we decided to try adding dropout or/and batch normalization. 
+We tried to change optimizers and activation functions but still had best configuration with Adam as optimizer and reLU as activation function.
+
+The model overfitted so we decided to try adding dropout or/and a batch normalization. 
 
 Here is the graph of validation loss & accuracy.
 - in red : with batch normalization 
@@ -204,7 +207,7 @@ After that, we used a scheduler who decrease the learning rate when our model do
 
 We reached 0.959 validation accuracy with a 0.7 dropout just before the flatten and batch normalization after the second convolutional layer.
 
-Finally we tried to add a sigmoid layer, who is a popular activation function in CNN when it placed before the output, but it didn't provide better results.
+Finally we tried to add a sigmoid layer, who is a popular activation function in CNN when it placed before the output, but it didn't provide us better results.
 
 --- 
  
