@@ -106,7 +106,7 @@ To improve our regression, we tried :
 Many possibilites gave us good results but we didn't find a configuration much better than others.
 The best result found was with these forward NN architecture 
 
-<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone2/NN Model.png" width="350" height="500" />
+<img src="https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1/NN Model.png" width="350" height="500" />
 
 # Milestone 2 : Tsunami induced building collapse detection
 
