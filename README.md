@@ -131,7 +131,6 @@ We reached a 0.150 MSE loss (submission #140955)
 
 # Milestone 2 : Tsunami induced building collapse detection
 
-
 ## Dependencies
 
 All required packages can be found in `requirements.txt`.
@@ -205,7 +204,6 @@ For more information on how to use TensorBoard with PyTorch, check out [the docu
 - Copy the Colab notebook to your Google Drive (*File -> Save a copy in Drive*) so that your changes to the training notebook persist.
 - All files with the exception of the training notebook (`train.ipynb`) get deleted when your session terminates. Make sure to download all the relevant files (e.g. submissions, trained models, logs) before ending your session.
 
-
 ## Progression & improvements
 
 To improve our regression, we had to take count of :
@@ -236,9 +234,7 @@ Here is the graph of validation loss & accuracy.
 
 (Screenshot from `train_milestone2.ipynb`)
 
-
 We obtained the best results with both simultaneously. 
-
 
 After that, we used a scheduler who decrease the learning rate when our model doesn't learn anymore.
 
