@@ -57,8 +57,8 @@ The following ground motion intensity measures are included in the dataset:
 
 **We provide also in `Milestone1_groupL.zip` two notebooks :**
 
--`train_milestone1.ipynb` 
--`train_milestone1_alternative.ipynb` 
+- `train_milestone1.ipynb` 
+- `train_milestone1_alternative.ipynb` 
 
 It contains two complete training procedures. (You can alternatively found them [here](https://github.com/ProjectMilestonegroupL/MilestoneProject/blob/main/Milestone1))
 
